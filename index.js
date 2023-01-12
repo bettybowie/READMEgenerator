@@ -30,11 +30,11 @@ const questions = [
         name: 'license',
         message: 'Choose a license for your project.',
         choices: [
-          {name: 'MIT', value:'MIT'},
-          {name: 'Apache_2.0',  value:'Apache 2.0'},
-          {name: 'GPLv3', value:'GPL 3.0'},
-          {name: 'EPL_1.0', value:'Eclipse Public License 1.0'},
-          {name: 'none', value: 'None'}
+          {value: 'MIT', name:'MIT'},
+          {value: 'Apache_2.0',  name:'Apache 2.0'},
+          {value: 'GPLv3', name:'GPL 3.0'},
+          {value: 'EPL_1.0', name:'Eclipse Public License 1.0'},
+          {value: 'none', name: 'None'}
         ]
       },
       {
@@ -56,7 +56,7 @@ const questions = [
       {
         type: 'input',
         message: 'What command should be run to run tests?',
-        default: 'mpm test',
+        default: 'npm test',
         name: 'test'
       },
 ];
@@ -71,8 +71,3 @@ inquirer
     err ? console.log(err) : console.log('Successfully created README.md!'))
 })
 
-// // TODO: Create a function to initialize app
-// function init() {}
-
-// // Function call to initialize app
-// init();
