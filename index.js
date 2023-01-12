@@ -6,6 +6,16 @@ const fs = require('fs');
 const questions = [
     {
         type: 'input',
+        message: 'What is your GitHub username?',
+        name: 'username'
+      },
+      {
+        type: 'input',
+        message: 'What is your email address?',
+        name: 'email'
+      },
+    {
+        type: 'input',
         message: 'What is your project title?',
         name: 'title'
       },
@@ -28,7 +38,7 @@ const questions = [
       },
       {
         type: 'input',
-        message: 'What command should be run to install dependencies',
+        message: 'What command should be run to install dependencies?',
         name: 'installation'
       },
       {
