@@ -1,9 +1,9 @@
-//  packages needed for this application
+//  Add packages needed for this application
 const inquirer = require('inquirer');
 const fs = require('fs');
 const generateMarkdown = require('./utils/generateMarkdown');
 
-// TODO: Create an array of questions for user input
+//  Create an array of questions for user input
 const questions = [
     {
         type: 'input',
@@ -31,10 +31,10 @@ const questions = [
         message: 'Choose a license for your project.',
         choices: [
           {name: 'MIT', value:'MIT'},
-          {name: 'Apache',  value:'Apache 2.0'},
-          {name: 'GPL', value:'GNU GPL 3.0'},
-          {name: 'Eclipse', value:'Eclipse Public License 1.0'},
-          {name: 'none', value: 'none'}
+          {name: 'Apache_2.0',  value:'Apache 2.0'},
+          {name: 'GPLv3', value:'GPL 3.0'},
+          {name: 'EPL_1.0', value:'Eclipse Public License 1.0'},
+          {name: 'none', value: 'None'}
         ]
       },
       {
@@ -61,7 +61,7 @@ const questions = [
       },
 ];
 
-// function to prompt questions and write README file
+// use inquirer prompt questions and write README file
 inquirer
 .prompt(questions)
 .then((data) => {
