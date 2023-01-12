@@ -1,9 +1,9 @@
 # Title
-   [![License: EPL_1.0](https://img.shields.io/badge/License-EPL_1.0.svg)][https://opensource.org/licenses/EPL-1.0]
+   [![License: GPLv3](https://img.shields.io/badge/License-GPLv3-blue.svg)][https://www.gnu.org/licenses/gpl-3.0]
    
    ## Description
    
-   Description.
+   Description
    
    ## Table of Contents
    
@@ -29,15 +29,15 @@
 
    ## Usage
    
-   Nothing really.
+   Nothing to know.
    
    ## License
    
-   This project is licensed under EPL_1.0 license.
+   This project is licensed under GPLv3 license.
    
    ## Contributing
    
-   None.
+   No guidelines.
    
    ## Tests
    
@@ -51,5 +51,5 @@
    
    If you have any questions about the repo, open an issue or contact me.
    My GitHub is [bettybowie] (https://github.com/bettybowie/).
-   My email address is bettybowie@gmail.com.
+   My email address is be@jd.com.
 
