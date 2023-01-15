@@ -29,5 +29,5 @@ After all the information has been collected, a README file will be generated.
 
 ## License
 
-This project is licensed under EPL_1.0 license.
+This project is licensed under MIT license.
 
